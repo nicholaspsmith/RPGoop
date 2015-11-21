@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012ACCE71BFFECD200F1D16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012ACCE61BFFECD200F1D16A /* AppDelegate.swift */; };
+		012ACCE91BFFECD200F1D16A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012ACCE81BFFECD200F1D16A /* ViewController.swift */; };
+		012ACCEC1BFFECD200F1D16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012ACCEA1BFFECD200F1D16A /* Main.storyboard */; };
+		012ACCEE1BFFECD200F1D16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012ACCED1BFFECD200F1D16A /* Assets.xcassets */; };
+		012ACCF11BFFECD200F1D16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012ACCEF1BFFECD200F1D16A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012ACCE31BFFECD200F1D16A /* RPGoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012ACCE61BFFECD200F1D16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		012ACCE81BFFECD200F1D16A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		012ACCEB1BFFECD200F1D16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012ACCED1BFFECD200F1D16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012ACCF01BFFECD200F1D16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012ACCF21BFFECD200F1D16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012ACCE01BFFECD200F1D16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012ACCDA1BFFECD200F1D16A = {
+			isa = PBXGroup;
+			children = (
+				012ACCE51BFFECD200F1D16A /* RPGoop */,
+				012ACCE41BFFECD200F1D16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		012ACCE41BFFECD200F1D16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012ACCE31BFFECD200F1D16A /* RPGoop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012ACCE51BFFECD200F1D16A /* RPGoop */ = {
+			isa = PBXGroup;
+			children = (
+				012ACCE61BFFECD200F1D16A /* AppDelegate.swift */,
+				012ACCE81BFFECD200F1D16A /* ViewController.swift */,
+				012ACCEA1BFFECD200F1D16A /* Main.storyboard */,
+				012ACCED1BFFECD200F1D16A /* Assets.xcassets */,
+				012ACCEF1BFFECD200F1D16A /* LaunchScreen.storyboard */,
+				012ACCF21BFFECD200F1D16A /* Info.plist */,
+			);
+			path = RPGoop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012ACCE21BFFECD200F1D16A /* RPGoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012ACCF51BFFECD200F1D16A /* Build configuration list for PBXNativeTarget "RPGoop" */;
+			buildPhases = (
+				012ACCDF1BFFECD200F1D16A /* Sources */,
+				012ACCE01BFFECD200F1D16A /* Frameworks */,
+				012ACCE11BFFECD200F1D16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPGoop;
+			productName = RPGoop;
+			productReference = 012ACCE31BFFECD200F1D16A /* RPGoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012ACCDB1BFFECD200F1D16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Nick;
+				TargetAttributes = {
+					012ACCE21BFFECD200F1D16A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 012ACCDE1BFFECD200F1D16A /* Build configuration list for PBXProject "RPGoop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012ACCDA1BFFECD200F1D16A;
+			productRefGroup = 012ACCE41BFFECD200F1D16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012ACCE21BFFECD200F1D16A /* RPGoop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012ACCE11BFFECD200F1D16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012ACCF11BFFECD200F1D16A /* LaunchScreen.storyboard in Resources */,
+				012ACCEE1BFFECD200F1D16A /* Assets.xcassets in Resources */,
+				012ACCEC1BFFECD200F1D16A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012ACCDF1BFFECD200F1D16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012ACCE91BFFECD200F1D16A /* ViewController.swift in Sources */,
+				012ACCE71BFFECD200F1D16A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		012ACCEA1BFFECD200F1D16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012ACCEB1BFFECD200F1D16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		012ACCEF1BFFECD200F1D16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012ACCF01BFFECD200F1D16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012ACCF31BFFECD200F1D16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012ACCF41BFFECD200F1D16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012ACCF61BFFECD200F1D16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPGoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaspsmith.RPGoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		012ACCF71BFFECD200F1D16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPGoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaspsmith.RPGoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012ACCDE1BFFECD200F1D16A /* Build configuration list for PBXProject "RPGoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012ACCF31BFFECD200F1D16A /* Debug */,
+				012ACCF41BFFECD200F1D16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012ACCF51BFFECD200F1D16A /* Build configuration list for PBXNativeTarget "RPGoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012ACCF61BFFECD200F1D16A /* Debug */,
+				012ACCF71BFFECD200F1D16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012ACCDB1BFFECD200F1D16A /* Project object */;
+}
