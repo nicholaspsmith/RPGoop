@@ -18,6 +18,7 @@ class ViewController: UIViewController {
   
   var player: Player!
   var enemy: Enemy!
+  var chestMessage: String?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -39,7 +40,30 @@ class ViewController: UIViewController {
   }
   
   @IBAction func onChestTapped(sender: AnyObject) {
+    chestButton.hidden = true
+    printLabel.text = chestMessage
+    NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "generateRandomEnemy", userInfo: nil, repeats: false)
+  }
+
+  @IBAction func attackPressed(sender: AnyObject) {
     
+    if enemy.attemptAttack(player.attackPwr) {
+      printLabel.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
+    } else {
+      printLabel.text = "Attack was unsuccessful"
+    }
+    
+    if let loot = enemy.dropLoot() {
+      player.addItemToInventory(loot)
+      chestMessage = "\(player.name) found \(loot)"
+      chestButton.hidden = false
+    }
+    
+    if !enemy.isAlive {
+      enemyHPLabel.text = ""
+      printLabel.text = "Killed \(enemy.type)"
+      enemyImage.hidden = true
+    }
   }
   
 }
