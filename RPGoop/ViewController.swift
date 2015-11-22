@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     player = Player(name: "Avatar", hp: 120, attackPwr: 20)
-    playerHPLabel.text = "\(player.hp)"
+    playerHPLabel.text = "\(player.hp) HP"
     
     generateRandomEnemy()
   }
@@ -37,6 +37,8 @@ class ViewController: UIViewController {
     } else {
       enemy = DevilWizard(startingHp: 60, attackPwr: 15)
     }
+    
+    enemyImage.hidden = false
   }
   
   @IBAction func onChestTapped(sender: AnyObject) {
@@ -49,6 +51,7 @@ class ViewController: UIViewController {
     
     if enemy.attemptAttack(player.attackPwr) {
       printLabel.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
+      enemyHPLabel.text = "\(enemy.hp) HP"
     } else {
       printLabel.text = "Attack was unsuccessful"
     }

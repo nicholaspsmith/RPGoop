@@ -159,9 +159,9 @@
                                 <size key="shadowOffset" width="2" height="1"/>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="B90-rN-61q"/>
                                         <exclude reference="DrJ-Lm-JTb"/>
                                         <exclude reference="btH-XD-yaw"/>
-                                        <exclude reference="B90-rN-61q"/>
                                     </mask>
                                 </variation>
                             </label>
